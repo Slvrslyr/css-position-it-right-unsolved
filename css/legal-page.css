@@ -4,6 +4,7 @@
   margin-top: 60px;
   width: 100%;
   position: fixed;
+  z-index: 1;
 }
 
 .legal-header h1 {
@@ -14,19 +15,23 @@
 }
 
 main {
-  margin-top: 10%;
-  margin-bottom: 5%;
+  position: relative;
+  top: 130px;
+  height: auto;
+  width: auto;
+  margin-bottom: 120px;
 }
 
 section {
   display: flex;
   gap: 30px;
-  position: inherit;
   border-bottom: 1px solid grey;
   padding: 30px;
   max-width: 900px;
   margin: 0 auto;
   color: white;
+  position: sticky;
+  margin-bottom: 100px;
 }
 
 .section-label {
@@ -35,6 +40,7 @@ section {
   height: max-content;
   padding: 10px 16px;
   position: sticky;
+  top: 160px;
 }
 
 .document-content {
